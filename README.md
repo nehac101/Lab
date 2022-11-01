@@ -8,7 +8,7 @@ This week, we will make an app that allows users to track where their car is par
 
 ## Part 1: Model
 
-1. Create a new `SingleViewApp` using `SwiftUI` for the user interface called `FindMyCar`.
+1. Download the starter code at: [https://github.com/67443-Mobile-Apps/FindMyCar_starter](https://github.com/67443-Mobile-Apps/FindMyCar_starter)
 
 2. The first thing you need to do when working with locations is getting permission from the user to use their location. To do this, go into the `Info.plist` file found in the file explorer and add a new property list item called `NSLocationWhenInUseUsageDescription` and add in the text "This app would like to use your location." (This can be done by clicking the `+` icon shown by hovering over "Information Property List"). This is the message that will be displayed when your app requests permission from the phone to use location services.
 
