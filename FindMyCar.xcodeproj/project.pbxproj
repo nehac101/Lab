@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		772EDBD22911F9240005DD13 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772EDBD12911F9240005DD13 /* MapView.swift */; };
+		772EDBD42911FB5E0005DD13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772EDBD32911FB5E0005DD13 /* ViewController.swift */; };
+		77D1B82D2911F2C10050047C /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D1B82C2911F2C10050047C /* Location.swift */; };
 		8578D079240035F800AAE74E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578D078240035F800AAE74E /* AppDelegate.swift */; };
 		8578D07B240035F800AAE74E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578D07A240035F800AAE74E /* SceneDelegate.swift */; };
 		8578D07D240035F800AAE74E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8578D07C240035F800AAE74E /* ContentView.swift */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		772EDBD12911F9240005DD13 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		772EDBD32911FB5E0005DD13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77D1B82C2911F2C10050047C /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		8578D075240035F800AAE74E /* find my car.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "find my car.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8578D078240035F800AAE74E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8578D07A240035F800AAE74E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +46,7 @@
 		8578D06C240035F800AAE74E = {
 			isa = PBXGroup;
 			children = (
+				772EDBD32911FB5E0005DD13 /* ViewController.swift */,
 				8578D077240035F800AAE74E /* FindMyCar */,
 				8578D076240035F800AAE74E /* Products */,
 			);
@@ -86,6 +93,7 @@
 		859CB51E2436771700B8F339 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				77D1B82C2911F2C10050047C /* Location.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -96,6 +104,7 @@
 				8578D07C240035F800AAE74E /* ContentView.swift */,
 				8578D083240035FD00AAE74E /* LaunchScreen.storyboard */,
 				8578D07E240035FD00AAE74E /* Assets.xcassets */,
+				772EDBD12911F9240005DD13 /* MapView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,8 +187,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772EDBD42911FB5E0005DD13 /* ViewController.swift in Sources */,
 				8578D079240035F800AAE74E /* AppDelegate.swift in Sources */,
 				8578D07B240035F800AAE74E /* SceneDelegate.swift in Sources */,
+				772EDBD22911F9240005DD13 /* MapView.swift in Sources */,
+				77D1B82D2911F2C10050047C /* Location.swift in Sources */,
 				8578D07D240035F800AAE74E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
